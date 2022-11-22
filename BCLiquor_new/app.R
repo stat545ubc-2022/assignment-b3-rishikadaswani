@@ -15,7 +15,7 @@ ui <- fluidPage(
       sliderInput("PriceInput", "Price", 0, 100,
                   value = c(25,40), pre = "$"),
       radioButtons("typeInput", "Type", 
-                   choices = c("BEER", "REFRESHMENTS", "SPIRITS", "WINE")),
+                   choices = c("BEER", "REFRESHMENT", "SPIRITS", "WINE")),
       uiOutput("countryOutput"),
    
     ),
